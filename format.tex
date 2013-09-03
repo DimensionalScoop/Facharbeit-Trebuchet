@@ -1,0 +1,101 @@
+\documentclass[a4page,ngerman,12pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+\usepackage{amsmath}
+\usepackage[onehalfspacing]{setspace}
+\usepackage[top=2.5cm,left=3.00cm,bottom=0.5cm,right=3.50cm]{geometry}
+\usepackage{esdiff}
+\usepackage{esvect}
+\usepackage{framed}
+\usepackage{graphicx}
+\usepackage{etoolbox}
+\usepackage{tikz}
+\usepackage[hidelinks]{hyperref}
+
+% --- Macro \xvec
+\makeatletter
+\newlength\xvec@height%
+\newlength\xvec@depth%
+\newlength\xvec@width%
+\newcommand{\xvec}[2][]{%
+  \ifmmode%
+    \settoheight{\xvec@height}{$#2$}%
+    \settodepth{\xvec@depth}{$#2$}%
+    \settowidth{\xvec@width}{$#2$}%
+  \else%
+    \settoheight{\xvec@height}{#2}%
+    \settodepth{\xvec@depth}{#2}%
+    \settowidth{\xvec@width}{#2}%
+  \fi%
+  \def\xvec@arg{#1}%
+  \def\xvec@dd{:}%
+  \def\xvec@d{.}%
+  \raisebox{.2ex}{\raisebox{\xvec@height}{\rlap{%
+    \kern.05em%  (Because left edge of drawing is at .05em)
+    \begin{tikzpicture}[scale=1]
+    \pgfsetroundcap
+    \draw (.05em,0)--(\xvec@width-.05em,0);
+    \draw (\xvec@width-.05em,0)--(\xvec@width-.15em, .075em);
+    \draw (\xvec@width-.05em,0)--(\xvec@width-.15em,-.075em);
+    \ifx\xvec@arg\xvec@d%
+      \fill(\xvec@width*.45,.5ex) circle (.5pt);%
+    \else\ifx\xvec@arg\xvec@dd%
+      \fill(\xvec@width*.30,.5ex) circle (.5pt);%
+      \fill(\xvec@width*.65,.5ex) circle (.5pt);%
+    \fi\fi%
+    \end{tikzpicture}%
+  }}}%
+  #2%
+}
+\makeatother
+
+%next chapter is on the same page
+%     \makeatletter
+%     \renewcommand\chapter{\par%
+%       \thispagestyle{plain}%
+%       \global\@topnum\z@
+%       \@afterindentfalse
+%       \secdef\@chapter\@schapter}
+%     \makeatother
+
+% \titleformat{\chapter}{%
+%     \centering\normalfont\LARGE\bfseries}{\thechapter}{1em}{}
+% \titlespacing*{\chapter} {0pt}{3.5ex plus 1ex minus .2ex}{2.3ex plus .2ex}
+
+%no newpage after each chapter
+% \usepackage{etoolbox}
+% \makeatletter
+% \patchcmd{\chapter}{\if@openright\cleardoublepage\else\clearpage\fi}{}{}{}
+% \makeatother
+
+%font
+\renewcommand{\familydefault}{ptm}
+\renewcommand{\sfdefault}{ptm}
+\renewcommand{\ttdefault}{ptm}
+
+%align-nummerierung berichtigen
+\renewcommand{\theequation}{\thesection.\arabic{equation}}
+
+%header
+\usepackage{scrpage2} 
+\clearscrheadfoot
+\chead[\pagemark]{\pagemark}
+\pagestyle{scrheadings}
+
+%titles
+\usepackage{titlesec}
+\titleformat{\chapter}[hang]{\large\bfseries}{\thechapter\quad}{0pt}{}
+\titleformat{\section}[hang]{\large\bfseries}{\thesection\quad}{0pt}{}
+\titleformat{\subsection}[hang]{\large\bfseries}{\thesubsection\quad}{0pt}{}
+\titleformat{\subsubsection}[hang]{\large\bfseries}{\thesubsubsection\quad}{0pt}{}
+%\titleformat{\paragraph}[hang]{\large\bfseries}{\theparagraph\quad}{0pt}{}
+
+\titlespacing{\chapter}{0pt}{-3em}{36pt}
+% \titlespacing{\section}{12pt}{36pt}{36pt}
+% \titlespacing{\subsection}{0pt}{6pt}{36pt}
+% \titlespacing{\subsubsection}{0pt}{6pt}{36pt}
+%\titlespacing{\paragraph}{0pt}{6pt}{36pt}
+
+\DeclareMathOperator{\const}{const.}
+\newcommand{\unit}[1]{\ensuremath{\, \mathrm{#1}}}

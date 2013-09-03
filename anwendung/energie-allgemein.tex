@@ -1,0 +1,31 @@
+\label{energie-allgemein}
+\section{Erste Abschätzungen mithilfe der allgemeinen Energieerhaltung}
+
+Bei vielen Problemen in der Mechanik ist es ausreichend oder zumindest hilfreich zu versuchen, das Problem mithilfe der Energieerhaltung zu formulieren, um eine erste Abschätzung vornehmen zu können. 
+
+\paragraph{Energie des Wurfarmes.}
+So auch hier: Zunächst bestimmen wir die Gesamtenergie, die wir dem Trebuchet zuführen:
+\begin{align}
+\label{gesammtenergie}
+E_{ges} &= m_G g h_0 %\emph{Anfängliche, potentielle Energie des Trebuchets}
+\end{align}
+Dabei ist $h_0$ die Höhe und $m_G$ die Masse des Gegengewichtes. Wenn wir davon ausgehen, dass das Geschoss in dem Moment freigegeben wird, in dem das Gegengewicht seine tiefste Stelle erreicht (also wenn $h=0$ gilt), wird diese Energie auch bestmöglich genutzt.
+Man könnte jetzt (vorschnell) schlussfolgern, dass die Reichweite des Trebuchets direkt von $E_{ges}$ abhinge, also $E_{ges}=E_P$ sei. Jedoch schwingt der Wurfarm nach Abwurf des Geschosses weiter. Dafür ist natürlich auch Energie notwendig, die dann nicht mehr dem Geschoss zur Verfügung stehen kann.
+Natürlich gibt es auch keine lineare Abhängigkeit, also etwa $E_P=\frac{m_P}{{m_{Trebuchet}}} E_{ges}$, denn der Wurfarm hat an verschiedenen Stellen eine unterschiedliche Geschwindigkeit und deswegen auch eine unterschiedlich hohe, kinetische Energie.
+
+\paragraph{Energie des Geschosses.}
+Die Reichweite $s$ des Trebuchets hängt hauptsächlich von der Anfangsgeschwindigkeit und so von der anfänglichen, kinetischen Energie des Geschosses ab:
+\begin{align}
+\label{wurfweite}
+s &= \frac{v_{0, P}^2 \sin{2\varphi_P}} {g} \\%\emph{Wurfweite des schiefen Wurfes (ohne Luftwiederstand)}\\
+E_P &= \frac{m_P v_P^2}{2} %\emph{Kinetische Energie des Geschosses}
+\end{align}
+Wenn man die Luftreibung vernachlässigt und den Abwurfwinkel $\varphi_P=\frac{\pi}{4}$ setzt, um die maximale Reichweite zu erzielen (ein Winkel von $0$ entspricht der Waagerechten), ergibt sich durch Äquivalenzumformung sofort die Reichweite in Abhängigkeit von der Energie:
+\begin{align}
+s(E) &= \frac{2 E_P}{ m_P}\frac{\sin{2\varphi_P}}{g}%\emph{Reichweite des Trebuchets}
+\end{align}
+Damit ist klar, dass für die reale Reichweite $s_{real}$ in jedem Fall
+\begin{align}
+s_{real}&<s(E_{ges})
+\end{align}
+gelten muss. Mehr Informationen können mit der einfachen Energieerhaltung noch nicht gewonnen werden (die Verbesserung wird in (\ref{energie-rot}) vorgenommen).

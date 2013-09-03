@@ -1,0 +1,78 @@
+\chapter{Physikalische Grundlagen}
+
+\section{Drehmoment und -impuls}
+Im Grunde ist die Mechanik starrer Körper keine neue \emph{Entdeckung} im Reich der Physik. Sie ist nur eine \emph{Erweiterung} der Mechanik der Massepunkte, um gewisse Problemstellungen zu vereinfachen. Ohne Experimente, sondern nur mit Mathematik und physikalischem Denken lässt sie sich aus der Mechanik der Massepunkte herleiten.
+
+\paragraph{Das Hebelgesetz.}
+Das Hebelgesetz sagt aus, dass sich ein drehbar gelagerter Balken, an dessen Enden zwei Gewichte hängen (oder allgemeiner: zwei Kräfte wirken), sich in Ruhe befindet, wenn
+\begin{align}
+\label{hebelgesetz-i}
+r_1 F_1 = r_2 F_2
+\end{align}
+gilt. Dabei sind $r_1$ und $r_2$ die Entfernungen der jeweiligen Kräfte zum Drehpunkt. Wenn die Kräfte nicht nur senkrecht zum Balken wirken dürfen, muss (\ref{hebelgesetz-i}) vektoriell geschrieben werden:
+\begin{align}
+\label{hebelgesetz}
+\vec r_1\times\vec F_1 =-\vec r_2\times\vec F_2
+\end{align}
+Anhand dieser Formel lässt sich nun das Drehmoment $\vec M$ definieren:
+\begin{align}
+\vec M &= \vec r\times\vec F\\
+\vec M_1 &= -\vec M_2\\
+\Leftrightarrow \vec 0 &=\vec M_1 + \vec M_2
+\end{align}
+Gleichen sich also alle Drehmomente aus, befindet sich der Hebel oder -allgemeiner- ein starrer Körper im Gleichgewicht, analog zum Gleichgewicht durch Kräftefreiheit. Dabei ist jedoch zu berücksichtigen, dass, wenn an einem Körper zwei entgegengesetzt gleiche Kräfte $\vec F_1=- \vec F_2$ angreifen, dieser zwar keiner Translation unterzogen wird, aber trotzdem anfangen kann, zu rotieren, da die Kräfte an unterschiedlichen Punkten angreifen können ($r_1F_1\not=-r_2F_2$, weil $r_1\not=r_2$).
+
+\paragraph{Der Drehimpuls.}
+Analog zum Impuls von Massepunkten kann auch der Drehimpuls $\vec L$ als zeitliche Aufleitung des Drehmomentes definiert werden:
+\begin{align}
+\nonumber \vec F &= \diff{\vec p}{t}\\
+		  \vec M &= \vec r \times \vec F\\
+		  \vec M &= \vec r \times \diff{\vec p}{t}\\
+		  \vec L &= \vec r \times \vec p\\
+		  \label{umfangsgeschwinigkeit}
+		  		 &= \vec r \times m \vec v
+\end{align}
+Da nach $\vec F=0 \Rightarrow \vec p=\vv\const$ Impulserhaltung gilt, gilt diese auch für den Drehimpuls $\vec M=0 \Rightarrow \vec L=\vv\const$, denn $L$ wird nur mit einem zeitlich konstanten Wert multipliziert ($r$). Ein starrer Körper, auf den kein Drehmoment wirkt, rotiert also mit gleichbleibender \emph{Winkelgeschwindigkeit}: Jeder Massepunkt des Körpers bewegt sich auf einer Kreisbahn und alle Massepunkte eines starren Körpers besitzen die gleiche Winkelgeschwindigkeit.
+
+
+\section{Trägheitsmoment}
+Mit der bisherigen Herleitung ergibt sich ein Problem: Mit den bisherigen Formeln wird nur der statische Fall betrachtet. Aber wie wirkt sich ein Drehmoment auf die Geschwindigkeit eines starren Körpers aus, also wie groß ist dessen Trägheit?
+
+\paragraph{Der starre Körper.}
+Ein starrer Körper ist ein System von Massepunkten, die untereinander (in guter Näherung) fest verbunden sind. Die Rotationsmechanik berücksichtigt also nicht mehr nur den Schwerpunkt von Körpern, sondern auch deren tatsächliche Ausdehnung, denn ein Körper verteilt seine Masse über sein gesamtes Volumen:
+\begin{align}
+m=\int\limits_{V} \varrho(\vec r)  \mathrm d V
+\end{align}
+Um die tatsächliche Trägheit des gesamten Systems zur berechnen, müssen also nur die Trägheiten der einzelnen Massepunkte aufaddiert werden. Wie stark ein Massepunkt zur Trägheit des starren Körpers beiträgt, hängt davon ab, wie weit er von der Rotationsachse entfernt liegt (\ref{umfangsgeschwinigkeit}). Dabei wird über den Drehimpuls argumentiert, denn der Gesamtdrehimpuls muss gleich dem Drehimpuls aller Massepunkte sein:
+\begin{align}
+\vec L &= \sum_{i=1}^{N} m_i \vec r_i \times \vec v_i\\
+	   &= \sum_{i=1}^{N} m_i \vec r_i \times (\vec \omega \times \vec r_i)\text{, da } \vec v_i=\vec \omega \times \vec r_i
+\end{align}
+Auflösen und vereinfachen ergibt:
+\begin{align} 
+\vec L &= \vec\omega \sum_{i=1}^{N} m_i r_i^2
+\end{align}
+Analog zur Definition des Impulses ($\vec p=\vec v m$) wird auch hier eine Geschwindigkeit mit einer Trägheit multipliziert. Es wird also zusammengefasst:
+\begin{align}
+I&=\sum_{i=1}^{N} m_i r_i^2\\
+\vec L &= I\vec\omega\\
+\label{rotationsbeschleunigung}
+\vec M &=\diff{\vec L}{t}= I\diff{\vec\omega}{t}
+\end{align}
+Durch Integration über das Volumen kann man so das Trägheitsmoment beliebig geformter Körper relativ zu beliebig ausgerichteten Drehachsen berechnen:
+\begin{align}
+\label{vol-I}
+I=\int\limits_{V} \varrho(\vec r)r^2  \mathrm d V
+\end{align}
+
+\section{Rotationsenergie}
+Die Rotationsenergie kann aus der kinetischen Energie aller Massepunkte hergeleitet werden:
+\begin{align}
+E_{kin}&=\sum_{i=1}^{N} \frac{m_i v_i^2}{2}\\
+	   &=\sum_{i=1}^{N} \frac{m_i (\vec\omega\times\vec r_i)^2}{2}
+\end{align}
+Eine längere Rechnung ergibt die -erwartungsgemäß zur kinetischen Energie analoge- Rotationsenergie:
+\begin{align}
+\label{rotationsenergie}
+E_{rot}&=\frac{I\omega^2}{2}
+\end{align}

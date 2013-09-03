@@ -1,0 +1,22 @@
+\section{Berechnung mithilfe der Energieerhaltung unter Berücksichtigung der Rotationsmechanik}
+\label{energie-rot}
+Der bisherige Rechenweg ist recht aufwändig gewesen. Vielleicht bietet die Energieerhaltung einen einfacheren Lösungsweg, wenn man sie um die Erhaltung der Rotationsenergie erweitert (\ref{rotationsenergie})?
+
+\paragraph{Energie des Wurfarmes.}
+Gleichung (\ref{gesammtenergie}) gilt natürlich weiterhin; die Energie des Wurfarmes wird diesmal aber auch durch die Rotationsenergie ausgedrückt:
+\begin{align}
+E_{ges}=\frac{I\omega^2}{2}
+\end{align}
+Damit wird es möglich, die Energie auszurechnen, die dem Trebuchet verloren geht, wenn das Geschoss sich löst. Dafür werden die unterschiedlichen Trägheitsmomente (\ref{traegheitsmoment-n2}, \ref{traegheitsmoment}) gebraucht, die schon im vorherigen Unterkapitel ausgerechnet worden sind:
+\begin{align}
+\Delta I &= I-I'= m_P r_l^2\\
+\frac{I\omega^2}{2}&=\frac{I'\omega^2}{2}+E_P\\
+\Leftrightarrow E_P&=\frac{\omega^2}{2}\Delta I 
+\end{align}
+Damit und mit den Erkenntnissen aus (\ref{energie-allgemein}) kann die Reichweite beschrieben werden:
+\begin{align}
+\nonumber
+s(E_P)&= \frac{2 \frac{\omega^2}{2}\Delta I}{ m_P}\frac{\sin{2\varphi_P}}{g}\\
+	  &= \frac{\omega^2 m_P r_l^2}{ m_P}\frac{\sin{2\varphi_P}}{g}
+\end{align}
+Diese Gleichung sieht schon erheblich einfacher aus als etwa (\ref{reichweite}). Doch es tritt ein Problem auf: Um $\omega$ zu berechnen, benötigt man wieder das gesamte Trägheitsmoment und die in (\ref{endgesch-starr}) vorgenommene Vereinfachung. Wenn man weiter umformt und einsetzt, erhält man (\ref{reichweite}). Hier ist die Energieerhaltung also kein einfacherer Weg zum Ziel, sondern ein gleichwertiger. Nichtsdestoweniger bestätigt sie die Richtigkeit des ersten Lösungsweges.

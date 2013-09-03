@@ -1,0 +1,23 @@
+\chapter{Anwendung}
+
+\begin{figure}[h!]
+    \includegraphics[width=\textwidth]{bilder/trebuchet-final}
+    \caption{Links: Die Konstruktion des Trebuchets. Rechts: Der Autor spannt das Trebuchet.}
+\end{figure}
+
+
+\section{Variablendeklaration}
+Um Unklarheiten in der Benennung von Variablen im Vorhinein zu vermeiden, ist es am besten, sämtliche Variablennamen ganz auszuschreiben (z.B. $m_{Geschoss}$). Dadurch werden jedoch viele Terme, insbesondere in (\ref{starre-koerper}), unleserlich. Deswegen habe ich mich für einen, maximal zwei Buchstaben pro Objekt entschlossen. Folgende, nicht selbsterklärende Indices werden verwendet:
+\begin{description}
+\item[$_k$] Der kurze Hebelarm, an dem das Gegengewicht befestigt ist.
+\item[$_l$] Der lange Hebelarm, an dessen Ende sich das Geschoss befindet.
+\item[$_{lk}$] Der gesamte Hebelarm.
+%\item[$_{LK}$]Der gesamte Arm des Hebels.
+\item[$_P$] Das Geschoss (abgeleitet von Projektil).
+\item[$_G$] Das Gegengewicht.
+\end{description}
+Wenn eine Variable auch ohne Index einen eindeutigen Namen besitzt (etwa das Drehmoment $M$), wird der Index ausgelassen.
+
+\input{anwendung/energie-allgemein}
+\input{anwendung/starrer-koerper}
+\input{anwendung/energie-rot}

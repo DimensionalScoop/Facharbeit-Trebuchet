@@ -1,0 +1,385 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Users/P/.ssh/github_rsa.pub",
+			"settings":
+			{
+				"buffer_size": 390,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/P/.ssh/id_rsa.pub",
+			"settings":
+			{
+				"buffer_size": 397,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"ssm",
+				"Set Syntax: Markdown"
+			],
+			[
+				"togg",
+				"Toggle Block Comment"
+			],
+			[
+				"toggle",
+				"Toggle Block Comment"
+			],
+			[
+				"sslat",
+				"Set Syntax: LaTeX"
+			],
+			[
+				"ssla",
+				"Set Syntax: LaTeX"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ssla	",
+				"Set Syntax: LaTeX"
+			],
+			[
+				"sslate",
+				"Set Syntax: LaTeX"
+			],
+			[
+				"comm",
+				"Toggle Block Comment"
+			],
+			[
+				"commen",
+				"Toggle Comment"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/P/.ssh/github_rsa.pub",
+		"/C/Users/P/Desktop/SkyDrive/Dokumente/Facharbeit/main6.tex",
+		"/C/Users/P/Desktop/SkyDrive/Dokumente/Facharbeit/einleitung.tex",
+		"/C/Users/P/Desktop/SkyDrive/Dokumente/Facharbeit/grundlagen.tex",
+		"/C/Users/P/Desktop/SkyDrive/Dokumente/Facharbeit/anwendung/anwendung.tex",
+		"/C/Users/P/Desktop/SkyDrive/Dokumente/Facharbeit/anwendung/energie-allgemein.tex",
+		"/C/Users/P/Desktop/SkyDrive/Dokumente/Facharbeit/anwendung/starrer-koerper.tex",
+		"/C/Users/P/Desktop/SkyDrive/Dokumente/Facharbeit/anwendung/energie-rot.tex",
+		"/C/Users/P/Desktop/SkyDrive/Dokumente/Facharbeit/praktische-ueberpruefung.tex",
+		"/C/Users/P/Desktop/SkyDrive/Dokumente/Facharbeit/format.tex",
+		"/C/Users/P/Desktop/SkyDrive/Dokumente/Facharbeit/schluss.tex",
+		"/C/Users/P/Desktop/SkyDrive/Dokumente/Facharbeit/anhang.tex",
+		"/C/Users/P/Desktop/SkyDrive/Dokumente/Latex Default Template/title.tex",
+		"/C/Users/P/Desktop/SkyDrive/Dokumente/Latex Default Template/main6.tex",
+		"/C/Users/P/Desktop/SkyDrive/Dokumente/Latex Default Template/format.tex",
+		"/C/Users/P/Desktop/SkyDrive/Dokumente/Facharbeit/title.tex",
+		"/C/Users/P/Desktop/SkyDrive/Dokumente/Facharbeit/erklaerung.tex",
+		"/C/Users/P/Desktop/SkyDrive/Dokumente/Facharbeit/grundlagen/herleitung-P-NTBK",
+		"/C/Users/P/Desktop/SkyDrive/Dokumente/Facharbeit/grundlagen/herleitung",
+		"/C/Users/P/Desktop/SkyDrive/Dokumente/Facharbeit/anwendung.tex",
+		"/C/Users/P/Downloads/Vorlage/FA.tex",
+		"/C/Users/P/Desktop/SkyDrive/Dokumente/Facharbeit/main5.toc",
+		"/C/Users/P/Desktop/SkyDrive/Dokumente/Facharbeit/main5.blg",
+		"/C/Users/P/Desktop/SkyDrive/Dokumente/Facharbeit/project.sublime-project",
+		"/C/Users/P/Desktop/SkyDrive/Dokumente/Facharbeit/project.sublime-workspace",
+		"/C/Users/P/Desktop/SkyDrive/Dokumente/Facharbeit/proj.sublime-project",
+		"/C/Users/P/Desktop/Latex/test.tex",
+		"/C/Users/P/Downloads/Vorlage/kopf.tex",
+		"/C/Users/P/Desktop/SkyDrive/Dokumente/Facharbeit/main4.tex",
+		"/C/Users/P/Desktop/Facharbeit/einleitung.tex",
+		"/C/Users/P/Desktop/Facharbeit/main2.toc",
+		"/C/Users/P/AppData/Roaming/Sublime Text 2/Packages/Language - German/German.aff",
+		"/C/Users/P/AppData/Roaming/Sublime Text 2/Packages/Language - German/German.dic",
+		"/C/Users/P/Desktop/Facharbeit/project.sublime-workspace",
+		"/C/Users/P/Desktop/Facharbeit/project.sublime-project",
+		"/C/Users/P/Downloads/Vorlage/kap1.tex",
+		"/C/Users/P/Downloads/Vorlage/kap2.tex",
+		"/C/Users/P/Downloads/Vorlage/abspann.tex",
+		"/C/Users/P/Desktop/anh",
+		"/C/Users/P/Desktop/Latex/test.aux",
+		"/C/Users/P/AppData/Roaming/Sublime Text 2/Packages/LaTeXTools/LaTeX.sublime-build",
+		"/C/Users/P/Downloads/Sublime.Text.2.Keygen.and.Patch-Lz0/linezer0.nfo",
+		"/C/Users/P/Downloads/Linezer0.rar"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"seite",
+			"Luftwieder",
+			"Luftwiederstand",
+			"energie-rot",
+			"verschiebungssatz",
+			"\\vec",
+			"variabel",
+			"aufwendig",
+			"I'",
+			"I''",
+			"&",
+			"$",
+			"r_l",
+			"\\vec",
+			"\\sin{2\\varphi_P}",
+			"varphi_s",
+			"m_{ges}",
+			"_g",
+			"_{g}",
+			"_p",
+			"_g",
+			"_{K}",
+			"_{L}",
+			"_{G}",
+			"_{P}",
+			"_P",
+			"_K",
+			"_L",
+			"_P",
+			"section",
+			"chapter",
+			"math",
+			"²",
+			"{GG}",
+			"m_{gg}",
+			"\\rho",
+			"\\roh",
+			"include"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\\xvec",
+			"I_2",
+			"I_1",
+			"",
+			"2",
+			"\\vv",
+			"\\sin{(2\\varphi_P)}",
+			"varphi_P",
+			"_G",
+			"_P",
+			"_G",
+			"_k",
+			"_l",
+			"_g",
+			"_p",
+			"_k",
+			"_l",
+			"_p",
+			"^2",
+			"{G}",
+			"\\varrho",
+			"input"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/P/.ssh/github_rsa.pub",
+					"settings":
+					{
+						"buffer_size": 390,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								389,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/P/.ssh/id_rsa.pub",
+					"settings":
+					{
+						"buffer_size": 397,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								397
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 125.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 118.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"anh",
+				"anhang.tex"
+			],
+			[
+				"",
+				"grundlagen.tex"
+			],
+			[
+				"schlu",
+				"schluss.tex"
+			],
+			[
+				"schl",
+				"schluss.tex"
+			],
+			[
+				"einlei",
+				"einleitung.tex"
+			],
+			[
+				"main",
+				"main6.tex"
+			],
+			[
+				"form",
+				"format.tex"
+			],
+			[
+				"ein",
+				"einleitung.tex"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 200.0,
+	"status_bar_visible": true
+}

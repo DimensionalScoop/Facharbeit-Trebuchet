@@ -1,0 +1,55 @@
+\chapter{Anhang}
+
+
+\makeatletter
+\renewenvironment*{thebibliography}[1] {%\bib@heading%
+      \list{\@biblabel{\@arabic\c@enumiv}}%
+           {\settowidth\labelwidth{\@biblabel{#1}}%
+            \leftmargin\labelwidth
+            \advance\leftmargin\labelsep
+            \@openbib@code
+            \usecounter{enumiv}%
+            \let\p@enumiv\@empty
+            \renewcommand*\theenumiv{\@arabic\c@enumiv}}%
+      \sloppy\clubpenalty4000\widowpenalty4000%
+      \sfcode`\.=\@m}
+\makeatother
+
+\section{Quellenverzeichnis}
+\begin{thebibliography}{9}
+
+\bibitem{gp} Dieter Meschede (Hg.), \emph{Gerthsen Physik}, 24. Aufl., Bonn 1948-2010, ISBN 978-3-642-12893-6.
+\bibitem{fs} Bierwerth, Hartmann, Herr, Wieneke, \emph{Formeln der Technik}, 1. Aufl., Haan-Gruiten 2007, ISBN 978-3-8085-5321-3.
+\bibitem{tr} Chevedden, Paul E., \emph{The Invention of the Counterweight Trebuchet: A Study in Cultural Diffusion}, 2000.
+\bibitem{tolan} Metin Tolan, Physik A2 im WS 2011/2012, Powerpoint-Folien zur Vorlesung\footnote{Diese sind nicht mehr im Internet verfügbar, ich arbeitete mit den bereits früher heruntergeladenen Folien}.
+\end{thebibliography}
+
+\section{Bildnachweis}
+Das Bild (\ref{bild_trebuchet}) stammt von der Website \url{http://upload.wikimedia.org/wikipedia/commons/b/b2/Trebuchet_Castelnaud.jpg}, alle anderen Bilder wurden vom Autor erstellt.
+
+\section{Anmerkung zum Format}
+Der besseren Übersicht wegen fängt jedes Kapitel auf einer neuen Seite an. Auch erscheinen Formelblöcke immer als Ganzes auf einer Seite und haben mindestens eine Zeile führenden Text. Würde ich auf diese Maßnahmen verzichten, würde sich die Zahl der Seiten meines Textes (ohne Anhang) von 14 auf 12 Seiten reduzieren.
+
+\section{Volumenintegral eines Quaders}
+Ein Quader besteht aus 6 Flächen, von denen jeweils zwei ihn in einer Richtung begrenzen. Wenn z die Rotationsachse ist, dann hängt das Trägheitsmoment nur von x und y nach dem Satz des Pythagoras ab. Bei homogener Dichte ergibt sich:
+\begin{align*}
+I_1 &=\int\limits_{V}\varrho \vec r^2 \mathrm d V\\
+&=\varrho\int\limits_{V} (x^2+y^2) \mathrm d V\\
+&=\varrho\int\limits_{z}\int\limits_{y}\int\limits_{x} (x^2+y^2) \mathrm d x \mathrm d y \mathrm d z\\
+&=\varrho\int\limits_{z}\int\limits_{y} (\frac{x^3}{3}+xy^2) \mathrm d y \mathrm d z\\
+&=\varrho\int\limits_{z} (\frac{yx^3}{3}+\frac{xy^3}{3}) \mathrm d z\\
+&=\varrho xyz(\frac{x^2+y^2}{3})\\
+&=m\frac{x^2+y^2}{3}\text{,da } m=\varrho V
+\end{align*}
+Damit ist das Trägheitsmoment des Quaders ausgerechnet. Die Rotationsachse liegt aber noch auf der Z-Achse des Koordinatensystems. Das wird mit dem Steiner'sche Verschiebungssatz geändert:
+\begin{align*}
+I&=m\frac{x^2+y^2}{3}+m(\frac{x}{2})^2+m(\frac{y}{2})^2\\
+&=m\frac{x^2+y^2}{12}
+\end{align*}
+
+\section{Hilfsmittel}
+Um Berechnungen anzustellen, benutzte ich einen \emph{Casio fx-991DE Plus Taschenrechner} und für aufwändigere Berechnungen \emph{Microsoft Mathemathics}. Die Bilder wurden mit einer Digitalkamera photographiert und sind in \emph{Photoshop CS2} nachbearbeitet. Der Text wurden mit \emph{Tex Live}, einer \LaTeX-Distribution, gelayoutet und in \emph{Sublime Text 2} geschrieben.
+
+Die für das Experiment verwendeten Materialien und Werkzeuge sind: PVC-Rohre und -Winkel mit 4 cm und 5 cm Querschnitt, Gafferband, Holzstäbe, ein Getränkekasten mit gefüllten Flaschen, verschiedene Seile und Schnur, Heringe, Gartenschlauch, ein Haken aus Metall, ein kurzes Alu-Rohr, ein Ultraschall-Entfernungsmessgerät, eine Säge, ein Golfball.
+
+\input{erklaerung}
