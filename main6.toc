@@ -1,0 +1,37 @@
+\select@language {ngerman}
+\contentsline {chapter}{\numberline {1}Einleitung}{2}{chapter.1}
+\contentsline {section}{\numberline {1.1}Vorwort}{2}{section.1.1}
+\contentsline {section}{\numberline {1.2}Das Trebuchet}{3}{section.1.2}
+\contentsline {chapter}{\numberline {2}Physikalische Grundlagen}{4}{chapter.2}
+\contentsline {section}{\numberline {2.1}Drehmoment und -impuls}{4}{section.2.1}
+\contentsline {paragraph}{Das Hebelgesetz.}{4}{section.2.1}
+\contentsline {paragraph}{Der Drehimpuls.}{5}{equation.2.1.5}
+\contentsline {section}{\numberline {2.2}Tr\IeC {\"a}gheitsmoment}{5}{section.2.2}
+\contentsline {paragraph}{Der starre K\IeC {\"o}rper.}{5}{section.2.2}
+\contentsline {section}{\numberline {2.3}Rotationsenergie}{6}{section.2.3}
+\contentsline {chapter}{\numberline {3}Anwendung}{7}{chapter.3}
+\contentsline {section}{\numberline {3.1}Variablendeklaration}{7}{section.3.1}
+\contentsline {section}{\numberline {3.2}Erste Absch\IeC {\"a}tzungen mithilfe der allgemeinen Energieerhaltung}{7}{section.3.2}
+\contentsline {paragraph}{Energie des Wurfarmes.}{8}{section.3.2}
+\contentsline {paragraph}{Energie des Geschosses.}{8}{equation.3.2.1}
+\contentsline {section}{\numberline {3.3}Berechnung als starrer K\IeC {\"o}rper}{8}{section.3.3}
+\contentsline {paragraph}{Das Drehmoment des Gegengewichtes.}{9}{section.3.3}
+\contentsline {paragraph}{Das Tr\IeC {\"a}gheitsmoment des Wurfarms.}{9}{equation.3.3.7}
+\contentsline {paragraph}{Die Endgeschwindigkeit.}{10}{equation.3.3.11}
+\contentsline {paragraph}{Deutung.}{11}{equation.3.3.20}
+\contentsline {section}{\numberline {3.4}Berechnung mithilfe der Energieerhaltung unter Ber\IeC {\"u}cksichtigung der Rotationsmechanik}{12}{section.3.4}
+\contentsline {paragraph}{Energie des Wurfarmes.}{12}{section.3.4}
+\contentsline {chapter}{\numberline {4}Praktische \IeC {\"U}berpr\IeC {\"u}fung}{13}{chapter.4}
+\contentsline {section}{\numberline {4.1}Aufbau}{13}{section.4.1}
+\contentsline {section}{\numberline {4.2}Durchf\IeC {\"u}hrung}{14}{section.4.2}
+\contentsline {section}{\numberline {4.3}Ergebnisse}{14}{section.4.3}
+\contentsline {chapter}{\numberline {5}Schluss}{16}{chapter.5}
+\contentsline {section}{\numberline {5.1}Reflexion}{16}{section.5.1}
+\contentsline {section}{\numberline {5.2}Ausblick}{16}{section.5.2}
+\contentsline {chapter}{\numberline {6}Anhang}{18}{chapter.6}
+\contentsline {section}{\numberline {6.1}Quellenverzeichnis}{18}{section.6.1}
+\contentsline {section}{\numberline {6.2}Bildnachweis}{18}{section.6.2}
+\contentsline {section}{\numberline {6.3}Anmerkung zum Format}{18}{section.6.3}
+\contentsline {section}{\numberline {6.4}Volumenintegral eines Quaders}{18}{section.6.4}
+\contentsline {section}{\numberline {6.5}Hilfsmittel}{19}{section.6.5}
+\contentsline {section}{\numberline {6.6}Selbst\IeC {\"a}ndigkeitserkl\IeC {\"a}rung}{20}{section.6.6}
